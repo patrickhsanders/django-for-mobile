@@ -13,6 +13,8 @@ Though Django can be installed by downloading it directly from its GitHub repo. 
 #### Virtual environment
 Finally, it's recommended to use a virtual environment when setting up projects. This allows isolation of dependences to individual projects. The easiest virtual environment to use and install is virtualenv by the Python Packaging Authority. However there are others that have more advanced features like [pyenv](https://github.com/yyuu/pyenv) which manages Python installations. 
 
-- [Mac Setup](setup/mac-setup.md)
-- [Windows 10 Setup](setup/windows-setup.md)
+- [Mac Setup instructions](setup/mac-setup.md)
+- [Windows 10 Setup instructions](setup/windows-setup.md)
+
+
 
