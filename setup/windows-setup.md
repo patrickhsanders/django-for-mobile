@@ -33,7 +33,7 @@ Reopen as non-administrator.
 Type `virtualenv <env name>`
 
 ### Activate the virtual environment
-`.\<env name>\Scripts\activate
+Type `.\<env name>\Scripts\activate`
 
 **Note:**
 To leave the virtual environment type `deactivate`
