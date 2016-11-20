@@ -13,7 +13,7 @@ Django admin creates and runs migration files (special Python files) by analyzin
 ## Initial migration
 Before you can do anything with Django, you need to create an initial migration. This will take an empty or non-existant database and setup initial tables. 
 
-[Initial Migration](images/migration-empty.png)
+![Initial Migration](images/migration-empty.png)
 
 You don't need to write any models to do this as Django creates a few data models to manage migrations and authentication. 
 
@@ -30,6 +30,6 @@ Now you should be able to run Django, create users, access admin.
 ## Further migrations
 After you create or update a models.py file, you'll need to create and run a migration before you try to run the server. This will add, remove or alter any fields or tables in the database. 
 
-[Schema Migration](images/migration-schema.png)
+![Schema Migration](images/migration-schema.png)
 
 If you don't you'll receive a debug page or 500 error. 
