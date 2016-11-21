@@ -17,10 +17,6 @@ Before you can do anything with Django, you need to create an initial migration.
 
 You don't need to write any models to do this as Django creates a few data models to manage migrations and authentication. 
 
-First we need to create a migration file. 
-
-In your project file type `./manage.py makemigrations` or `python manage.py makemigrations` (Windows, Linux)
-
 The migrations for Django's internal apps will be stored in the Django app itself, this is stored internally in your virtual environment. If you created your own data model, you can inspect the model in the `migrations` folder of the same app the `models.py` file is located in. 
 
 After you create migrations, you need to run them by typing `./manage.py migrate` or `python manage.py migrate` (Windows, Linux)
@@ -33,3 +29,10 @@ After you create or update a models.py file, you'll need to create and run a mig
 ![Schema Migration](images/migration-schema.png)
 
 If you don't you'll receive a debug page or 500 error. 
+
+First we need to create a migration file. 
+
+In your project file type `./manage.py makemigrations` or `python manage.py makemigrations` (Windows, Linux)
+
+After you create migrations, you need to run them by typing `./manage.py migrate` or `python manage.py migrate` (Windows, Linux)
+
